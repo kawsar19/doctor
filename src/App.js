@@ -1,13 +1,17 @@
-import logo from './logo.svg';
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-     <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-    <button class="btn">Button</button>
+    <div className="App p-5">
+       <div className="container mx-auto" >
+        <button className="btn">Hello </button>
+       </div>
+       <div className="avatar">
+      <div className="w-24 rounded">
+        <img src="https://placeimg.com/192/192/people" />
+      </div>
+</div>
     </div>
   );
 }
