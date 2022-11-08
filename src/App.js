@@ -10,6 +10,7 @@ import {
 } from "react-router-dom";
 import About from './pages/About/About';
 import Login from './pages/Login/Login';
+import Footer from './pages/Shared/Footer';
 
 
 function App() {
@@ -21,6 +22,8 @@ function App() {
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
       </Routes>
+
+      <Footer/>
 
     </div>
   );
