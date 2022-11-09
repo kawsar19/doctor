@@ -11,6 +11,7 @@ import {
 import About from './pages/About/About';
 import Login from './pages/Login/Login';
 import Footer from './pages/Shared/Footer';
+import Appoinment from './pages/Appointment/Appoinment';
 
 
 function App() {
@@ -21,6 +22,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="about" element={<About />} />
         <Route path="login" element={<Login />} />
+        <Route path="appoinment" element={<Appoinment />} />
       </Routes>
 
       <Footer/>
